@@ -1,70 +1,73 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
-
-<div id="badges" align="center">
-  <a href=https://www.linkedin.com/in/danial04/>
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="your-youtube-URL">
-    <img src="https://img.shields.io/badge/Discord-purple?style=for-the-badge&logo=Discord&logoColor=white" alt="Youtube Badge"/>
-  </a>
-  <a href="your-twitter-URL">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-</div>
-
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=DannyFentom&style=flat-square&color=blue" alt=""/>
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
 <h1 align="center">
   Hi there
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-  
   I'm Muhammad Danial Aslam
-  
 </h1>
+<p align="center"><b>Backend &amp; Agentic AI Engineer</b> · Islamabad, Pakistan</p>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+  <a href="https://www.linkedin.com/in/danial04/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:danialaslam04@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
 </div>
 
 ---
 
-### 👨‍🎓: About Me :
-## Machine Learning Enthusiast <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+Software Engineer at **Z-Axiss**, with three years building production backends and agentic AI systems on Google Cloud — Java/Spring Boot and Python/FastAPI, where models propose and deterministic code executes behind governed tool boundaries.
 
-- :telescope: I am a Machine Learning Practitioner and have a passion to solve real-world problems.
+I work directly with clients, turning raw operational requirements into domain models and shipped backends.
 
-- :seedling: I’m currently learning Python and DSA.
+### 🚀 What I'm Building
 
-- :zap: In my free time, I play chess and read tech articles.
+Client platforms, so the repos are private — but this is the work:
 
-- :mailbox:How to reach me:  [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/danial04/) [![Linkedin Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](https://danialaslam04@gmail.com)
----
+- **Business-acquisition marketplace** — a Spring Boot domain backend plus a FastAPI service running five LLM agents on Google ADK, with Stripe subscription billing and Plaid-backed verification. Serves buyers, brokers, and admins.
+- **Concierge care platform** — matches aging-adult clients with field staff through an onboarding agent, a task-planning agent, and a pod matching engine, wired to Gusto Embedded Payroll and Checkr.
+- **Multi-tenant drayage TMS** — an LLM pipeline ingests delivery orders straight from email, extracts and validates the structured data, runs credit checks, and creates loads automatically.
 
-### :hammer_and_wrench: Languages and Tools :
+### 🧩 How I Build Agents
 
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-plain.svg" title="C++" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Redux " width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/anaconda/anaconda-original.svg" alt="anaconda" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" title="flask" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" title="numpy" alt="Firebase" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" title="pandas"  alt="Gatsby" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+The execution pattern I've standardized across all three platforms:
+
+- **MCP tool servers** with per-call identity propagation
+- **Role-filtered toolsets** — an agent only ever sees what its caller is allowed to do
+- **A uniform preview-then-confirm gate** — no state change lands without explicit approval
+- Vertex AI and Gemini for inference, BigQuery vector search for semantic discovery, GKE and Redis underneath
+
+### 🛠️ Languages and Tools
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="Java" alt="Java" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" title="Spring Boot" alt="Spring Boot" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="Python" alt="Python" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" title="Google Cloud" alt="Google Cloud" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" title="Kubernetes (GKE)" alt="Kubernetes" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" title="Docker" alt="Docker" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" title="MySQL" alt="MySQL" width="45" height="45"/>&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" title="Redis" alt="Redis" width="45" height="45"/>
 </div>
 
----
-### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DanialAslam04&theme=dark&background=000000)](https://git.io/streak-stats)
+<p align="center">
+  <b>Agentic AI</b> · Google ADK · MCP · multi-agent orchestration · tool calling<br/>
+  <b>LLM</b> · Vertex AI · Gemini · Claude · LiteLLM · RAG
+</p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanialAslam04&layout=compact&theme=vision-friendly-dark)](https://github.com/DanialAslam04)
+### 🔥 My Stats
 
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=DanialAslam04&theme=dark&background=000000&hide_border=false" alt="GitHub Streak"/>
+</div>
+
+### 📬 Open to
+
+Backend and agentic-AI engineering roles — remote or Islamabad-based.
+Reach me on [LinkedIn](https://www.linkedin.com/in/danial04/) or at [danialaslam04@gmail.com](mailto:danialaslam04@gmail.com).
