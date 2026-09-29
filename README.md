@@ -52,8 +52,9 @@ but it can never reach past the boundary its caller was given:
   <img src="assets/agent-pattern.png" width="100%" alt="Execution pattern: caller carries identity, the agent proposes, a role-filtered toolset limits what it can see, the MCP tool server propagates identity per call, and a preview-then-confirm gate means nothing lands without approval."/>
 </p>
 
-Underneath: **Vertex AI** and **Gemini** for inference, **BigQuery vector search** for semantic
-discovery, **GKE** for orchestration, and **Redis** for caching and rate limiting.
+Underneath: **Vertex AI** and **Gemini** for inference, routed through **LiteLLM**; **BigQuery
+vector search** backing RAG and semantic discovery; **GKE** for orchestration and **Redis** for
+caching and rate limiting.
 
 ---
 
@@ -65,10 +66,10 @@ discovery, **GKE** for orchestration, and **Redis** for caching and rate limitin
 
 <table>
   <tr>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="58" alt="Java"/><br/><sub><b>Java</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="58" alt="Spring Boot"/><br/><sub><b>Spring Boot</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="58" alt="Python"/><br/><sub><b>Python</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="58" alt="FastAPI"/><br/><sub><b>FastAPI</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" height="52" alt="Java"/><br/><sub><b>Java</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" height="52" alt="Spring Boot"/><br/><sub><b>Spring Boot</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" height="52" alt="Python"/><br/><sub><b>Python</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" height="52" alt="FastAPI"/><br/><sub><b>FastAPI</b></sub></td>
   </tr>
 </table>
 
@@ -76,43 +77,40 @@ discovery, **GKE** for orchestration, and **Redis** for caching and rate limitin
 
 <table>
   <tr>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" width="58" alt="Google Cloud"/><br/><sub><b>Google Cloud</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" width="58" alt="Kubernetes"/><br/><sub><b>Kubernetes</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="58" alt="Docker"/><br/><sub><b>Docker</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="58" alt="Redis"/><br/><sub><b>Redis</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="58" alt="PostgreSQL"/><br/><sub><b>PostgreSQL</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="58" alt="MySQL"/><br/><sub><b>MySQL</b></sub></td>
+    <td align="center" width="136"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" height="52" alt="Google Cloud"/><br/><sub><b>Google Cloud</b></sub></td>
+    <td align="center" width="136"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" height="52" alt="Kubernetes"/><br/><sub><b>Kubernetes</b></sub></td>
+    <td align="center" width="136"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="52" alt="Docker"/><br/><sub><b>Docker</b></sub></td>
+    <td align="center" width="136"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" height="52" alt="Redis"/><br/><sub><b>Redis</b></sub></td>
+    <td align="center" width="136"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="52" alt="PostgreSQL"/><br/><sub><b>PostgreSQL</b></sub></td>
+    <td align="center" width="136"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" height="52" alt="MySQL"/><br/><sub><b>MySQL</b></sub></td>
   </tr>
 </table>
 
 **Agentic AI &amp; LLM**
 
-<p>
-  <img src="https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google ADK"/>
-  <img src="https://img.shields.io/badge/MCP-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Model Context Protocol"/>
-  <img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Vertex AI"/>
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
-  <img src="https://img.shields.io/badge/LiteLLM-1E90FF?style=for-the-badge" alt="LiteLLM"/>
-  <img src="https://img.shields.io/badge/RAG-16A085?style=for-the-badge" alt="Retrieval-Augmented Generation"/>
-  <img src="https://img.shields.io/badge/BigQuery_Vector_Search-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery Vector Search"/>
-</p>
+<table>
+  <tr>
+    <td align="center" width="136"><img src="https://cdn.simpleicons.org/google/4285F4" height="52" alt="Google ADK"/><br/><sub><b>Google ADK</b></sub></td>
+    <td align="center" width="136"><img src="https://cdn.simpleicons.org/modelcontextprotocol/8B949E" height="52" alt="MCP"/><br/><sub><b>MCP</b></sub></td>
+    <td align="center" width="136"><img src="https://cdn.simpleicons.org/googlegemini/8E75B2" height="52" alt="Gemini"/><br/><sub><b>Gemini</b></sub></td>
+    <td align="center" width="136"><img src="https://cdn.simpleicons.org/googlecloud/4285F4" height="52" alt="Vertex AI"/><br/><sub><b>Vertex AI</b></sub></td>
+    <td align="center" width="136"><img src="https://cdn.simpleicons.org/claude/D97757" height="52" alt="Claude"/><br/><sub><b>Claude</b></sub></td>
+    <td align="center" width="136"><img src="https://cdn.simpleicons.org/googlebigquery/669DF6" height="52" alt="BigQuery"/><br/><sub><b>BigQuery</b></sub></td>
+  </tr>
+</table>
 
 **Tools**
 
 <table>
   <tr>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="58" alt="Git"/><br/><sub><b>Git</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" width="58" alt="Postman"/><br/><sub><b>Postman</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" width="58" alt="IntelliJ IDEA"/><br/><sub><b>IntelliJ</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" width="58" alt="Jira"/><br/><sub><b>Jira</b></sub></td>
-    <td align="center" width="130"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="58" alt="Linux"/><br/><sub><b>Linux</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" height="52" alt="Git"/><br/><sub><b>Git</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" height="52" alt="Postman"/><br/><sub><b>Postman</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" height="52" alt="IntelliJ"/><br/><sub><b>IntelliJ</b></sub></td>
+    <td align="center" width="205"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" height="52" alt="Jira"/><br/><sub><b>Jira</b></sub></td>
   </tr>
 </table>
 
 </div>
-
----
 
 ## 🎓 &nbsp;Education &amp; Certifications
 
