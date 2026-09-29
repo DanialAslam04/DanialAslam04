@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/danial04/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:danialaslam04@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Remote_%C2%B7_Hybrid_%C2%B7_Onsite-3FB9A5?style=for-the-badge" alt="Open to remote, hybrid or onsite"/>
   <img src="https://img.shields.io/badge/3_Years_Experience-2C5364?style=for-the-badge" alt="3 years experience"/>
 </p>
 
