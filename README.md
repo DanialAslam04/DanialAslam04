@@ -19,8 +19,6 @@
 
 Software engineer with three years of experience designing and delivering production backend systems and agentic AI applications on Google Cloud. Skilled in translating complex business requirements into production-grade software, working across Java/Spring Boot, Trillo Workbench, and Python/FastAPI to build REST APIs, async workflows, and third-party integrations.
 
-**Models propose. Deterministic code executes** — behind governed tool boundaries, so an LLM can drive real business operations without ever being trusted with unchecked authority.
-
 ---
 
 ## 🚀 &nbsp;What I'm Building
@@ -43,8 +41,9 @@ An **LLM pipeline that ingests delivery orders straight from email** — extract
 
 ## 🧩 &nbsp;How I Build Agents
 
-The same execution pattern, standardized across all three platforms — an agent can reason freely,
-but it can never reach past the boundary its caller was given:
+**Models propose. Deterministic code executes.** The same pattern across all three platforms —
+an agent can reason freely, but it can never reach past the boundary its caller was given, and no
+state changes without explicit approval:
 
 <p align="center">
   <img src="assets/agent-pattern.png" width="100%" alt="Execution pattern: caller carries identity, the agent proposes, a role-filtered toolset limits what it can see, the MCP tool server propagates identity per call, and a preview-then-confirm gate means nothing lands without approval."/>
