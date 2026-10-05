@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3600&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Models+propose.+Deterministic+code+executes.;MCP+tool+servers+%C2%B7+role-filtered+toolsets;Google+ADK+%C2%B7+Vertex+AI+%C2%B7+Gemini+%C2%B7+BigQuery+vector+search" alt="Models propose. Deterministic code executes."/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3600&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Models+propose.+Policy+decides+what+commits.;Deterministic+code+executes.;MCP+tool+servers+%C2%B7+role-filtered+toolsets;Google+ADK+%C2%B7+Vertex+AI+%C2%B7+Gemini+%C2%B7+BigQuery+vector+search" alt="Models propose. Deterministic code executes."/>
 </p>
 
 <p align="center">
+  <a href="https://danialaslam04.github.io"><img src="https://img.shields.io/badge/Portfolio-0A0A0B?style=for-the-badge&logo=googlechrome&logoColor=C6F135" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/danial04/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:danialaslam04@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="assets/Muhammad-Danial-Aslam-Resume.pdf"><img src="https://img.shields.io/badge/Resume-3FB9A5?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume (PDF)"/></a>
-  <img src="https://img.shields.io/badge/3_Years_Experience-2C5364?style=for-the-badge" alt="3 years experience"/>
 </p>
 
 ---
@@ -42,11 +42,11 @@ An **LLM pipeline that ingests delivery orders straight from email** — extract
 ## 🧩 &nbsp;How I Build Agents
 
 **Models propose. Deterministic code executes.** The same pattern across all three platforms —
-an agent can reason freely, but it can never reach past the boundary its caller was given, and no
-state changes without explicit approval:
+an agent can reason freely, but it can never reach past the boundary its caller was given, and a
+deterministic policy — not the model — decides which writes commit on their own and which stop:
 
 <p align="center">
-  <img src="assets/agent-pattern.png" width="100%" alt="Execution pattern: caller carries identity, the agent proposes, a role-filtered toolset limits what it can see, the MCP tool server propagates identity per call, and a preview-then-confirm gate means nothing lands without approval."/>
+  <img src="assets/agent-pattern.png" width="100%" alt="Execution pattern: the caller carries identity, the agent proposes but never executes, a role-filtered toolset limits what it can see, the MCP tool server propagates identity per call, and a deterministic policy classifies each write — low-risk writes commit autonomously while high-risk writes hold at a gate for an explicit approve or reject."/>
 </p>
 
 Underneath: **Vertex AI** and **Gemini** for inference, routed through **LiteLLM**; **BigQuery
