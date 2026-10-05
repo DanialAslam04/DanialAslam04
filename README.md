@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3600&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Models+propose.+Policy+decides+what+commits.;Deterministic+code+executes.;MCP+tool+servers+%C2%B7+role-filtered+toolsets;Google+ADK+%C2%B7+Vertex+AI+%C2%B7+Gemini+%C2%B7+BigQuery+vector+search" alt="Models propose. Deterministic code executes."/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3600&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Models+propose.+Policy+decides+what+commits.;MCP+tool+servers+%C2%B7+role-filtered+toolsets;Google+ADK+%C2%B7+Vertex+AI+%C2%B7+Gemini+%C2%B7+BigQuery+vector+search" alt="Models propose. Policy decides what commits."/>
 </p>
 
 <p align="center">
